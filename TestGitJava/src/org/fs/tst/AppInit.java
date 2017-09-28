@@ -6,7 +6,9 @@ public class AppInit {
 		
 	}
 	public void execute(){
-		
+		//Crea bean
+		TBean tBean = new TBean();
+		tBean.setNombre("x");
 	}
 	/**
 	 * Initial entry point
