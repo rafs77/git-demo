@@ -9,6 +9,8 @@ public class AppInit {
 		//Crea bean
 		TBean tBean = new TBean();
 		tBean.setNombre("x");
+		ZBean zBean = new ZBean();
+		zBean.setZip("12198");
 	}
 	/**
 	 * Initial entry point
