@@ -17,7 +17,8 @@ public class TestInit {
 	 * Init business test execution
 	 */
 	public void execute(){
-		
+		CommisionBean commB = new CommisionBean();
+		commB.setAmount(10.20);
 	}
 	/**
 	 * main entry
